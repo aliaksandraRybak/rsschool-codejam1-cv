@@ -60,6 +60,11 @@ main .heading {
   margin-bottom: 25px;
 }
 
+main p {
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
 main a {
 	margin-bottom: 0;
   color: #000;
@@ -73,12 +78,6 @@ main a {
 main a:hover {
   background-color: #d2baba;
 }
-
-main p {
-	margin-bottom: 15px;
-	font-size: 17px;
-}
-
 
 .column{
 	width: 230px;
@@ -103,7 +102,7 @@ main p {
 }
 
 .photo {
-	width: 230px;
+  width: 230px;
   height: 190px;
   background-image: url(../img/profile-photo.jpeg);
   background-size: cover;
@@ -112,13 +111,19 @@ main p {
   margin: 0;
 }
 
-.heading {
+.column .heading {
 	font-weight: bold;
   text-align: center;
   color: #a56e80;
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 15px;
+}
+
+.column p {
+  margin-bottom: 7px;
+  line-height: 20px;
+  vertical-align: middle;
 }
 
 .column a {
@@ -134,17 +139,7 @@ main p {
   text-decoration: underline;
 }
 
-p {
-	margin-bottom: 7px;
-  line-height: 20px;
-  vertical-align: middle;
-}
-
 .skills li {
 	list-style-type: none;
 	line-height: 20px;
 }
-
-
-
-
