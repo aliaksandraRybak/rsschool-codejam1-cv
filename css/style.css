@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .container {
@@ -27,7 +27,7 @@ h1 {
 	vertical-align: middle;
   position: relative;
   top: 50px;
-  right: 115px;
+  right: 100px;
 }
 
 h1::after {
@@ -61,8 +61,9 @@ main .heading {
 }
 
 main p {
-  margin-bottom: 15px;
+  margin-bottom: 11px;
   font-size: 17px;
+  line-height: 22px;
 }
 
 main a {
@@ -142,4 +143,5 @@ main a:hover {
 .skills li {
 	list-style-type: none;
 	line-height: 20px;
+  margin-bottom: 5px;
 }
