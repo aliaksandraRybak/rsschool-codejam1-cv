@@ -11,6 +11,7 @@ body {
 	width: 800px;
 	margin: 0 auto;
 	margin-bottom: 50px;
+  position: relative;
 }
 
 header {
@@ -86,7 +87,7 @@ main a:hover {
 	padding: 15px 20px;
 	position: absolute;
 	top: 0;
-  left: 295px;
+  left: 20px;
   text-align: center;
   color: #fff;
 }
