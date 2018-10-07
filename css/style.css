@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
 .container {
 	width: 800px;
 	margin: 0 auto;
@@ -21,16 +25,16 @@ h1 {
 	font-size: 50px;
 	display: inline-block;
 	vertical-align: middle;
-	margin-top: 55px;
-  margin-right: 50px;
   position: relative;
+  top: 50px;
+  right: 115px;
 }
 
 h1::after {
 	content: 'Junior Front-End Developer';
   position: absolute;
   top: 60px;
-  right: 132px;
+  right: 120px;
   font-size: 20px;
   color: #5d223d;
 }
